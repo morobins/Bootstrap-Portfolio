@@ -12,7 +12,7 @@
 
 <body>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nbar">
       <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,15 +25,15 @@
         <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> -->
         <ul class="navbar-nav mt-2 mt-md-0 nbar">
           <li class="nav-item active">
-            <a class="nav-link" href="#!">About
+            <a class="nav-link" href="index.html">About
               <span class="sr-only">(current)</span> | </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#!">Portfolio
+            <a class="nav-link" href="portfolio.html">Portfolio
               <span class="sr-only">(current)</span> | </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#!">Contact
+            <a class="nav-link" href="contact.html">Contact
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -43,23 +43,26 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+        <div class="card">
+          <div class="card-body">
+              <form>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@gmail.com">
+                  <div class="form-group message">
+                    <label for="formGroupExampleInput2">Message</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
           </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Email</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@gmail.com">
-          <div class="form-group message">
-            <label for="formGroupExampleInput2">Message</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
       </div>
-      </div>
-      <div class="col-md-4 socialBox">
+      <div class="col-md-4 card">
         <h3>
           Connect with Me
         </h3>
@@ -77,15 +80,17 @@
           <div class="col-md-4">
             <a href="https://www.linkedin.com/in/moniquedrobinson/">
               <img src="./assets/images/linkedin_logo_64.png" alt="linkedIn logo">
+            </a>
           </div>
-          </a>
         </div>
       </div>
     </div>
   </div>
+  </div>
+  </div>
   <nav class="navbar fixed-bottom navbar-light bg-light footerMain">
-      <p class="navbar-brand">&#169 Copyright 2018 Monique</p>
-    </nav>
+    <p class="navbar-brand">&#169 Copyright 2018 Monique</p>
+  </nav>
   </div>
 
 </body>
